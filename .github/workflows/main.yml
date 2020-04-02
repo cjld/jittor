@@ -34,7 +34,7 @@ jobs:
         python3.7 -c "import jittor"
         python3.7 -m jittor.test -v
         
-  test_g++:
+  test_gcc:
     # The type of runner that the job will run on
     runs-on: self-hosted
 
