@@ -35,3 +35,5 @@ jobs:
         ls
         uname -a
         export
+        echo running on branch ${GITHUB_REF##*/}
+        echo running on branch ${GITHUB_REF}
